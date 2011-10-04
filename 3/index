@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="baseline.css">
+</head>
+<style>
+
+#MainNav {
+    position:relative;
+    height: 50px;
+    }
+    
+	#Dogs {
+ float:left; 
+ width:500px;
+ height:800px;
+ right:0px;
+ margin:20px; 
+ }
+	#Cats {
+ float:left;
+ width:500px;
+ left:0px;
+ margin:20px; 
+ height:800px
+ 
+ 
+    
+	
+	#Logo {
+	position: absolute;
+	top:0px
+	}
+      
+    #DogsCats {
+    top:200px;
+    width: 1000px;
+    text-align: left;
+      }
+      
+    #bottomnav {
+    bottom:0px
+    
+    
+    }
+    
+	#ImagesAndCopy {
+	float:left
+	bottom:0px
+	font-size:10px;
+}
+
+	#Copyright {
+	{
+	float:right
+	bottom:0px
+	font-size:10px;
+}
+    
+</style>
+<body>
+<header>
+<div id='Logo'>
+	<a href='index.html'><img alt='Dog Vs Cat' src='images/dogvscat-logo.gif'/></a>
+		<div id='MainNav'>
+		<nav id='MainNav'>
+			<ul>
+			<li><a href='#'>Photos</a></li>
+			<li><a href='#'>About</a></li>
+			<li><a href='#'>Submit</a></li>
+			<li><a href='#'>Blog</a></li>
+			<li><a href='#'>Contact</a></li>
+            </ul>
+		</nav>
+		</div>
+		</div>
+	</header>
+	
+	<div id='DogsCats'>
+	
+	<div id='Dogs'>
+		<article class='Dogs'>
+			<img alt='Dog Nose' src='images/dog-nose.jpeg'/>
+			<h2>
+			Dogs Have Better Noses
+			</h2>
+			<br>
+			Dogs can discriminate odors at concentrations nearly 100 million times lower than 			humans can. The wet nose is essential for determining the direction of the air current 			containing the smell. Cold receptors in the skin are sensitive to the cooling of the skin 			by evaporation of the moisture by air currents.
+		</article>
+		</div>
+	
+	<div id='Cats'>
+		<article class='Cats'>
+			<img alt='Cat Tongue' src='images/Cat-Tongue.jpeg'/>
+			<h2>
+			Cats Have Better Tongues
+			</h2>
+			<br>
+			Cats are known for their cleanliness, spending many hours licking their coats. The 			cat's tongue has backwards-facing spines about 500 micrometers long, which are 			called papillae. These are quite rigid, as they contain keratin. These spines allow cats 			to groom themselves by licking their fur, with the rows of papillae acting like a hairbrush. 	
+		</article>
+     </div>
+	</div>	
+	
+	<Footer id='bottomnav'>
+	<div id='ImagesAndCopy'> 
+		images and copy from <a href='#'>wiki commons</a>
+		</div>
+	<div id='Copyright'>
+		Copyright &copy; 2011<a href='#'>Martha Rettig</a>
+	</div>
+	</footer>
+</body>
+</html>
