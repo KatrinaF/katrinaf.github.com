@@ -3,73 +3,24 @@
 <head>
 <link rel="stylesheet" type="text/css" href="baseline.css">
 </head>
-<style>
 
-#MainNav {
-    position:relative;
-    height: 50px;
-    }
-    
-	#Dogs {
- float:left; 
- width:500px;
- height:800px;
- right:0px;
- margin:20px; 
- }
-	#Cats {
- float:left;
- width:500px;
- left:0px;
- margin:20px; 
- height:800px
- 
- 
-    
-	
-	#Logo {
-	position: absolute;
-	top:0px
-	}
-      
-    #DogsCats {
-    top:200px;
-    width: 1000px;
-    text-align: left;
-      }
-      
-    #bottomnav {
-    bottom:0px
-    
-    
-    }
-    
-	#ImagesAndCopy {
-	float:left
-	bottom:0px
-	font-size:10px;
-}
-
-	#Copyright {
-	{
-	float:right
-	bottom:0px
-	font-size:10px;
-}
-    
-</style>
 <body>
+<p.nav>Navigation</p>
+<p.title>Title</p>
+<p.text>Text</p>
+<p.footer>footer</p>
+
 <header>
 <div id='Logo'>
 	<a href='index.html'><img alt='Dog Vs Cat' src='images/dogvscat-logo.gif'/></a>
 		<div id='MainNav'>
 		<nav id='MainNav'>
 			<ul>
-			<li><a href='#'>Photos</a></li>
-			<li><a href='#'>About</a></li>
-			<li><a href='#'>Submit</a></li>
-			<li><a href='#'>Blog</a></li>
-			<li><a href='#'>Contact</a></li>
+			<li><a href='#'>PHOTOS</a></li>
+			<li><a href='#'>ABOUT</a></li>
+			<li><a href='#'>SUBMIT</a></li>
+			<li><a href='#'>BLOG</a></li>
+			<li><a href='#'>CONTACT</a></li>
             </ul>
 		</nav>
 		</div>

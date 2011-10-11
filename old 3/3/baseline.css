@@ -1,0 +1,73 @@
+p {
+font-family: Georgia; 
+}
+
+p.nav {
+	color:red;
+}
+
+p.title {
+	color:red;
+}
+
+p.text {
+	color:red;
+
+}
+
+p.footer {
+	color:red;
+
+}
+
+#MainNav {
+    position:relative;
+    height: 50px;
+    }
+    
+	#Dogs {
+ float:left; 
+ width:500px;
+ height:800px;
+ right:0px;
+ margin:20px; 
+ }
+	#Cats {
+ float:left;
+ width:500px;
+ left:0px;
+ margin:20px; 
+ height:800px
+ 
+ 
+    
+	
+	#Logo {
+	position: absolute;
+	top:0px
+	}
+      
+    #DogsCats {
+    top:200px;
+    width: 1000px;
+    text-align: left;
+      }
+      
+    #bottomnav {
+    bottom:0px
+    
+    
+    }
+    
+	#ImagesAndCopy {
+	float:left
+	bottom:0px
+	font-size:10px;
+}
+
+	#Copyright {
+	{
+	float:right
+	bottom:0px
+	font-size:10px;
+}
