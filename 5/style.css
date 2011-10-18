@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-h1 {
+# p1 {
 @font-face {
 	font-family: "Ostrich-black.ttf";
 	src: local("katrina.github.com/5/ostrich-sans");
